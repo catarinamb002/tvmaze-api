@@ -22,7 +22,7 @@ export function Show() {
         <>
             <article className="show-container">
                 <div className="show-images">
-                    <img src={show?.image?.medium} alt={id} />
+                    <img src={show?.image?.medium} alt={show.name} />
                 </div>
                 <div className="show-detail">
                     <div className="show-detail-title">
