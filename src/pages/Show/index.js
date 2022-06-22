@@ -16,13 +16,13 @@ export function Show() {
             setShow(data);
         }
         getShows();
-    }, [show])
+    }, [show, id])
 
     return (
         <>
             <article className="show-container">
                 <div className="show-images">
-                    <img src={show?.image?.medium} />
+                    <img src={show?.image?.medium} alt={id} />
                 </div>
                 <div className="show-detail">
                     <div className="show-detail-title">
