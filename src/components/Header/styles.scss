@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #FF6C6C;
+
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+
+    z-index: 100;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+
+
+    font-weight: 700;
+    font-size: 2rem;
+
+    a {
+        transition: color .2s;
+
+        @media (max-width: 577px) {
+            transition: color .2s;
+        }
+
+        &:hover {
+            color: #e00909;
+        }
+    }
+}
